@@ -13,9 +13,9 @@ export default {
       { name: 'msapplication-tap-highlight', content: 'no' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
-    script: [
-      { src: 'https://unpkg.com/@ionic/core@4.0.0-alpha.7/dist/ionic.js' }
-    ],
+    // script: [
+    //   { src: 'https://unpkg.com/@ionic/core@4.0.0-alpha.7/dist/ionic.js' }
+    // ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
@@ -47,7 +47,7 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa',
+    // '@nuxtjs/pwa',
   ],
   /*
   ** Axios module configuration
